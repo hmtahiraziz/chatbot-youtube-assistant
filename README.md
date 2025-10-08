@@ -38,18 +38,18 @@ An AI-powered chatbot that takes a YouTube video ID, extracts the transcript, an
 git clone https://github.com/hmtahiraziz/chatbot-youtube-assistant.git
 
 # Backend
-cd FAQ
+cd Youtube_Chatbot_Backend
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the backend
-uvicorn faq_bot:app --reload
+uvicorn backend:app --reload
 
 ---
 
 # Frontend
-cd Faq_Frontend
+cd Youtube_Chatbot_Frontend
 
 # Install dependencies
 npm install
